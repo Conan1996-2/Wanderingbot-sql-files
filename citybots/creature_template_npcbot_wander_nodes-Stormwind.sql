@@ -2,7 +2,11 @@
 -- Dumping data for table `creature_template_npcbot_wander_nodes`
 --
 
+DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`=712;
+DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`>=5200 AND `id`<=5285;
+
 INSERT INTO `creature_template_npcbot_wander_nodes` (`id`, `name`, `mapid`, `zoneid`, `areaid`, `minlevel`, `maxlevel`, `minwaittime`, `maxwaittime`, `proximity`, `flags`, `x`, `y`, `z`, `o`, `links`) VALUES
+('712', 'TradeDistrict', '0', '1519', '1519', '5', '80', '60000', '180000', '10', '2', '-8823.85', '631.531', '95', '3.54245', '16:0 5200:0 5202:0 5204:0 5216:0')
 (5200, 'SWBridgeTradeToOld', 0, 1519, 1519, 10, 80, 1, 2, 0, 2, -8748.52, 560.327, 98, 5.46978, '712:0 5201:0 5202:0 5204:0 5216:0 5217:0 5218:0 5219:0 5220:0 5221:0 5222:0 5223:0 5224:0 5225:0 5226:0 5227:0 5228:0 5229:0 5230:0 5231:0 5232:0 5233:0 5234:0 5235:0 5236:0'),
 (5201, 'SWBridgeOldToTrade', 0, 1519, 1519, 10, 80, 1, 2, 0, 2, -8713.77, 519.589, 98, 2.21038, '5200:0 5213:0 5214:0 5269:0 5270:0 5271:0 5272:0 5273:0 5274:0 5275:0 5276:0 5277:0 5278:0 5279:0'),
 (5202, 'SWBridgeTradeToCathedral', 0, 1519, 1519, 10, 80, 1, 2, 0, 2, -8745.67, 710.218, 99, 0.674923, '712:0 5204:0 5200:0 5203:0 5216:0 5217:0 5218:0 5219:0 5220:0 5221:0 5222:0 5223:0 5224:0 5225:0 5226:0 5227:0 5228:0 5229:0 5230:0 5231:0 5232:0 5233:0 5234:0 5235:0 5236:0'),
