@@ -3,7 +3,7 @@ NPCBOT SQL files for wanderingbots in cities, 11k Bots.
 
 <H2>NPC Wandering bots for cities in citybots:</H2>  
 
-Any file can be used to add waypoints to a specific city. Only use the city.sql files you want, you dont have to use them all. This does not modify existing or add new bots. This only adds waypoints and spawn points so bots will occupy the cities and make it look more realistic.   
+Any file can be used to add waypoints to a specific city. Only use the city.sql files you want, you dont have to use them all. This does not modify existing or add new bots. This only adds waypoints and spawn points so bots will occupy the cities and make it look more realistic and give them life.   
 
 <B>Specific ID's used - City - file:</B>  
 5200-5299 - Stormwind - creature_template_npcbot_wander_nodes-Stormwind.sql  
