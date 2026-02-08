@@ -2,6 +2,8 @@
 -- Dumping data for table `creature_template_npcbot_wander_nodes`
 --
 
+DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`>=5600 AND `id`<=5643;
+
 INSERT INTO `creature_template_npcbot_wander_nodes` (`id`, `name`, `mapid`, `zoneid`, `areaid`, `minlevel`, `maxlevel`, `minwaittime`, `maxwaittime`, `proximity`, `flags`, `x`, `y`, `z`, `o`, `links`) VALUES
 (5600, 'UNDERCITYInn', 0, 1497, 1497, 10, 80, 5000, 30000, 2, 5, 1634.97, 223.606, -43.1031, 5.73198, '5613:0 5614:0 5615:0 5616:0 5618:0 5619:0 5620:0 5621:0 5622:0 5623:0 5624:0 5625:0 5626:0 5627:0 5628:0 5629:0 5630:0 5631:0 5632:0 5633:0 5634:0 5635:0 5636:0 5637:0 5638:0 5639:0 5640:0 5641:0 5642:0 5643:0'),
 (5601, 'UNDERCITYBankS', 0, 1497, 1497, 10, 80, 30000, 60000, 2, 4, 1587.29, 240.613, -52.1487, 0, '5613:0 5614:0 5615:0 5616:0 5618:0 5619:0 5620:0 5621:0 5622:0 5623:0 5624:0 5625:0 5626:0 5627:0 5628:0 5629:0 5630:0 5631:0 5632:0 5633:0 5634:0 5635:0 5636:0 5637:0 5638:0 5639:0 5640:0 5641:0 5642:0 5643:0'),
