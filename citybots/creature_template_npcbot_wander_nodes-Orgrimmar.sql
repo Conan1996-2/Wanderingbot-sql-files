@@ -2,7 +2,11 @@
 -- Dumping data for table `creature_template_npcbot_wander_nodes`
 --
 
+DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`=30;
+DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`>=5500 AND `id`<=5543;
+
 INSERT INTO `creature_template_npcbot_wander_nodes` (`id`, `name`, `mapid`, `zoneid`, `areaid`, `minlevel`, `maxlevel`, `minwaittime`, `maxwaittime`, `proximity`, `flags`, `x`, `y`, `z`, `o`, `links`) VALUES
+('30', 'Orgrimmar', '1', '14', '14', '1', '10', '3000', '7000', '0', '4', '1429.15', '-4364.86', '25.4626', '0.273189', '1361:0  5500:0')
 (5500, 'ORGInn', 1, 1637, 1637, 5, 80, 5000, 30000, 0, 5, 1635.85, -4442.97, 15.6337, 2.614, '30:0 5508:0 5509:0 5510:0 5537:0 5538:0 5539:0 5540:0 5541:0 5542:0 5543:0'),
 (5501, 'ORGBank1', 1, 1637, 1637, 5, 80, 30000, 60000, 2, 4, 1629.36, -4383.69, 12.2681, 0.65, '5508:0 5509:0 5510:0 5537:0 5538:0 5539:0 5540:0 5541:0 5542:0 5543:0'),
 (5502, 'ORGBank2', 1, 1637, 1637, 5, 80, 30000, 60000, 2, 4, 1624.21, -4378.44, 12.0846, 0.65, '5508:0 5509:0 5510:0 5537:0 5538:0 5539:0 5540:0 5541:0 5542:0 5543:0'),
