@@ -1,9 +1,11 @@
 # Wanderingbot-sql-files
-NPCBOT SQL files for wanderingbots in cities, 11k Bots
+NPCBOT SQL files for wanderingbots in cities, 11k Bots.  
 
 <H2>NPC Wandering bots for cities in citybots:</H2>  
 
-<B>ID's used - City - file:</B>  
+Any file can be used to add waypoints to a specific city. Only use the city.sql files you want, you dont have to use them all. This does not modify existing or add new bots. This only adds waypoints and spawn points so bots will occupy the cities and make it look more realistic.   
+
+<B>Specific ID's used - City - file:</B>  
 5200-5299 - Stormwind - creature_template_npcbot_wander_nodes-Stormwind.sql  
 5300-5399 - Ironforge  - creature_template_npcbot_wander_nodes-Ironforge.sql  
 5400-5499 - Reserved for The Exodar  
@@ -14,5 +16,7 @@ NPCBOT SQL files for wanderingbots in cities, 11k Bots
 5900-5999 - Reserved for Shattrath City  
 
 <H2>11k NPCBOT files to add over 11,000 bots:</H2>  
+
+This will add 11k new bots to your existing bots, using the specific IDS listed below.  
 
 <B>All files have to be added in order for this to work</B>  
