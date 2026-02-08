@@ -2,6 +2,8 @@
 -- Dumping data for table `creature_template_npcbot_wander_nodes`
 --
 
+DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`>=5800 AND `id`<=5841;
+
 INSERT INTO `creature_template_npcbot_wander_nodes` (`id`, `name`, `mapid`, `zoneid`, `areaid`, `minlevel`, `maxlevel`, `minwaittime`, `maxwaittime`, `proximity`, `flags`, `x`, `y`, `z`, `o`, `links`) VALUES
 (5800, 'DALAllianceInn', 571, 4395, 4395, 74, 80, 5000, 30000, 0, 2, 5715.1, 690.977, 645.751, 5.5, '5802:0 5803:0 5804:0 5805:0 5806:0 5807:0 5808:0 5809:0 5810:0 5811:0'),
 (5801, 'DALHordeInn', 571, 4395, 4395, 74, 80, 5000, 30000, 5, 4, 5895.99, 482.076, 640.786, 1.8, '5802:0 5803:0 5804:0 5805:0 5806:0 5807:0 5808:0 5809:0 5810:0 5811:0'),
