@@ -1,3 +1,8 @@
+--
+-- Dumping data for table `creature_template_npcbot_wander_nodes`
+--
+
+DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`>=5900 AND `id`<=5928;
 
 INSERT INTO `creature_template_npcbot_wander_nodes` (`id`, `name`, `mapid`, `zoneid`, `areaid`, `minlevel`, `maxlevel`, `minwaittime`, `maxwaittime`, `proximity`, `flags`, `x`, `y`, `z`, `o`, `links`) VALUES
 (5900, 'SHATRampNE', 530, 3703, 3703, 61, 69, 0, 1, 4, 0, -1682.2, 5368.92, 8.54677, 2.82632, '2629:0 5906:0 5927:0 5928:0'),
