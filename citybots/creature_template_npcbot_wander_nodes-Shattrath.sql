@@ -1,54 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.2.1deb3
--- https://www.phpmyadmin.net/
---
--- Host: localhost:3306
--- Generation Time: Feb 11, 2026 at 04:11 AM
--- Server version: 8.0.45-0ubuntu0.24.04.1
--- PHP Version: 8.3.6
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `wrath_blizlike_world`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `creature_template_npcbot_wander_nodes`
---
-
-CREATE TABLE `creature_template_npcbot_wander_nodes` (
-  `id` int UNSIGNED NOT NULL,
-  `name` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'RENAME_ME',
-  `mapid` smallint UNSIGNED NOT NULL DEFAULT '0',
-  `zoneid` int UNSIGNED NOT NULL DEFAULT '0',
-  `areaid` int UNSIGNED NOT NULL DEFAULT '0',
-  `minlevel` tinyint UNSIGNED NOT NULL DEFAULT '0',
-  `maxlevel` tinyint UNSIGNED NOT NULL DEFAULT '0',
-  `minwaittime` int UNSIGNED NOT NULL DEFAULT '3000',
-  `maxwaittime` int UNSIGNED NOT NULL DEFAULT '7000',
-  `proximity` float NOT NULL DEFAULT '0',
-  `flags` int UNSIGNED NOT NULL DEFAULT '0',
-  `x` float NOT NULL DEFAULT '0',
-  `y` float NOT NULL DEFAULT '0',
-  `z` float NOT NULL DEFAULT '0',
-  `o` float NOT NULL DEFAULT '0',
-  `links` mediumtext CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Bot Wander Map';
-
---
--- Dumping data for table `creature_template_npcbot_wander_nodes`
---
 
 INSERT INTO `creature_template_npcbot_wander_nodes` (`id`, `name`, `mapid`, `zoneid`, `areaid`, `minlevel`, `maxlevel`, `minwaittime`, `maxwaittime`, `proximity`, `flags`, `x`, `y`, `z`, `o`, `links`) VALUES
 (5900, 'SHATRampNE', 530, 3703, 3703, 61, 69, 0, 1, 4, 0, -1682.2, 5368.92, 8.54677, 2.82632, '2629:0 5906:0 5927:0 5928:0'),
@@ -80,18 +29,3 @@ INSERT INTO `creature_template_npcbot_wander_nodes` (`id`, `name`, `mapid`, `zon
 (5926, 'SHATSkinningTrainer', 530, 3703, 3703, 61, 69, 20000, 40000, 3, 0, -2046.14, 5299.45, -38.728, 3.09449, '5900:0 5901:0 5902:0 5903:0 5904:0 5905:0 5906:0 5907:0 5913:0 5914:0 5915:0 5916:0 5917:0 5918:0 5919:0 5920:0 5927:0 5928:0'),
 (5927, 'SHATBattleMaster', 530, 3703, 3703, 61, 69, 120000, 240000, 4, 0, -1768.37, 5256.97, -38.8421, 2.24154, '5908:0 5909:0 5910:0 5911:0 5912:0 5921:0 5922:0 5923:0 5924:0 5925:0 5926:0'),
 (5928, 'SHATGeras', 530, 3703, 3703, 61, 69, 120000, 240000, 3, 0, -1841.98, 5471.1, 1.01826, 4.39823, '5908:0 5909:0 5910:0 5911:0 5912:0 5921:0 5922:0 5923:0 5924:0 5925:0 5926:0');
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `creature_template_npcbot_wander_nodes`
---
-ALTER TABLE `creature_template_npcbot_wander_nodes`
-  ADD PRIMARY KEY (`id`);
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
