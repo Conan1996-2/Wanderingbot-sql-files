@@ -8,6 +8,6 @@ NPCBOT SQL files for wanderingbots in cities, 11k Bots
 5400-5499 - Darnassus      - creature_template_npcbot_wander_nodes-Darnassus.sql
 5500-5599 - Orgrimmar      - creature_template_npcbot_wander_nodes-Orgrimmar.sql  
 5600-5699 - Undercity      - creature_template_npcbot_wander_nodes-Undercity.sql  
-5700-5799 - Reserved for Thunderbluff  
+5700-5799 - Thunder Bluff  - creature_template_npcbot_wander_nodes-ThunderBluff.sql
 5800-5899 - Dalaran        - creature_template_npcbot_wander_nodes-Dalaran.sql  
 5900-5999 - Shattrath City - creature_template_npcbot_wander_nodes-Shattrath.sql  
