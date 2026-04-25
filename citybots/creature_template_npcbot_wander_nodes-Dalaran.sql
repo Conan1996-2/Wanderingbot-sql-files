@@ -1,6 +1,6 @@
 --
 -- Dumping data for table `creature_template_npcbot_wander_nodes`
---
+-- moved from 5800-5841 to 50800-50841
 
 DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`>=50800 AND `id`<=50841;
 
