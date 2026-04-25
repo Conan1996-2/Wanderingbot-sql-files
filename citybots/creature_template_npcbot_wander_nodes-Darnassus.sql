@@ -1,8 +1,8 @@
 --
 -- Dumping data for table `creature_template_npcbot_wander_nodes`
---
+-- moved from 5400-5444 to 50400-50444
 
-DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`>=5400 AND `id`<=5444;
+DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`>=50400 AND `id`<=50444;
 
 INSERT INTO `creature_template_npcbot_wander_nodes` (`id`, `name`, `mapid`, `zoneid`, `areaid`, `minlevel`, `maxlevel`, `minwaittime`, `maxwaittime`, `proximity`, `flags`, `x`, `y`, `z`, `o`, `links`) VALUES
 (50400, 'DARNINN', 1, 1657, 1657, 5, 30, 5000, 30000, 2, 524291, 10137.9, 2217.02, 1329.98, 2.15744, '50443:0'),
