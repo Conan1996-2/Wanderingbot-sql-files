@@ -3,7 +3,7 @@
 -- moved from 5500-5543 to 50500-50543
 
 DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`=30;
-DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`>=5500 AND `id`<=5543;
+DELETE FROM `creature_template_npcbot_wander_nodes` WHERE `id`>=50500 AND `id`<=50543;
 
 INSERT INTO `creature_template_npcbot_wander_nodes` (`id`, `name`, `mapid`, `zoneid`, `areaid`, `minlevel`, `maxlevel`, `minwaittime`, `maxwaittime`, `proximity`, `flags`, `x`, `y`, `z`, `o`, `links`) VALUES
 ('30', 'Orgrimmar', '1', '14', '14', '1', '10', '3000', '7000', '0', '4', '1429.15', '-4364.86', '25.4626', '0.273189', '1361:0 50500:0'),
